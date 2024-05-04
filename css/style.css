@@ -1,0 +1,32 @@
+.demo {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  grid-template-rows: 50px auto 50px;
+  height: 100vh;
+  grid-template-areas: "m m m h h h h h h h h h" "m m m c c c c c c c c c" "f f f f f f f f f f f f";
+}
+
+.header {
+  background-color: red;
+  grid-area: h;
+}
+
+.menu {
+  background-color: blue;
+  grid-area: m;
+}
+
+.content {
+  background-color: green;
+  grid-area: c;
+}
+
+.footer {
+  background-color: tomato;
+  grid-area: f;
+}
+
+/*# sourceMappingURL=style.css.map */
